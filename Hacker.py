@@ -71,9 +71,9 @@ START_TEXT = """
 𝘽𝙤𝙩 𝙁𝙤𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥𝙨 𝘼𝙡𝙡𝙤𝙬𝙨 𝙔𝙤𝙪 𝙏𝙤 𝙋𝙡𝙖𝙮 𝙈𝙪𝙨𝙞𝙘 𝘼𝙣𝙙 𝙑𝙞𝙙𝙚𝙤𝙨 𝙊𝙣 𝙂𝙧𝙤𝙪𝙥𝙨 𝙏𝙝𝙧𝙤𝙪𝙜𝙝 𝙏𝙝𝙚 𝙉𝙚𝙬 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙑𝙞𝙙𝙚𝙤 𝘾𝙝𝙖𝙩𝙨...
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★
-┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [𝙍𝙔𝙈](https://t.me/RYMOFFICIAL)
+┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [𝐀𝐌𝐀𝐍](https://t.me/itzamanrajput)
 ┣★
-┣★ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 : [𝙃𝙀𝙍𝙀](https://t.me/JaiHindChatting)
+┣★ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 : [𝐓𝐒𝐆 𝐂𝐇𝐀𝐓](https://t.me/Friends_Chatting_Group3)
 ┣★
 ┗━━━━━━━━━━━━━━━━━┛
 ━━━━━━━━━━━━━━━━━━━━━━━━
@@ -82,18 +82,18 @@ START_TEXT = """
 START_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("♦️ 𝘈𝘥𝘥 𝘔𝘦 𝘛𝘰 𝘠𝘰𝘶𝘳 𝘎𝘳𝘰𝘶𝘱 ♦️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            InlineKeyboardButton("♦️ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ♦️", url=f"https://t.me/Music_tsgbot?startgroup=true")
         ],
         [
-            InlineKeyboardButton("📝 𝘊𝘖𝘔𝘔𝘈𝘕𝘋𝘚", callback_data="cbcmds"),
-            InlineKeyboardButton("🇮🇳 𝘋𝘌𝘝𝘌𝘓𝘖𝘗𝘌𝘙", url="https://t.me/LegendRajOp")
+            InlineKeyboardButton("📝 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒", callback_data="cbcmds"),
+            InlineKeyboardButton("🇮🇳 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐩𝐞𝐫", url="https://t.me/itzamanrajput")
         ],
         [
-            InlineKeyboardButton("🧞‍♂ 𝘚𝘜𝘗𝘗𝘖𝘙𝘛", url="https://t.me/JaiHindChatting"),
-            InlineKeyboardButton("🔔 𝘜𝘗𝘋𝘈𝘛𝘌𝘚", url="https://t.me/RymOfficial")
+            InlineKeyboardButton("🧞‍♂ 𝑻𝒔𝒈 𝑪𝒉𝒂𝒕", url="https://t.me/Friends_Chatting_Group3"),
+            InlineKeyboardButton("🔔 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/itsamanrajput")
         ],
         [
-            InlineKeyboardButton("🔒 𝘚𝘖𝘜𝘙𝘊𝘌 𝘊𝘖𝘋𝘌", url="https://github.com/rakeshyt/DevilHackerMusic")
+            InlineKeyboardButton("🔒 𝐃𝐄𝐏𝐋𝐎𝐘 𝐘𝐎𝐔𝐑 𝐓𝐒𝐆 𝐁𝐎𝐓 ", url="https://te.legra.ph/file/7ca878a87eb74e36254c7.jpg")
         ]
     ]
 )
@@ -101,8 +101,8 @@ START_BUTTONS = InlineKeyboardMarkup(
 BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="• 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 •", url="https://t.me/JaiHindChatting"),
-            InlineKeyboardButton(text="• 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 •", url="https://t.me/RymOfficial")
+            InlineKeyboardButton(text="• 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 •", url="https://t.me/Friends_Chatting_Group3"),
+            InlineKeyboardButton(text="• 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 •", url="https://t.me/itzamanrajput")
         ]
     ]
 )
@@ -143,7 +143,7 @@ async def skip_current_song(chat_id):
                 )
             pop_an_item(chat_id)
             await bot.send_photo(chat_id, photo = thumb,
-                                 caption = f"▶️ <b>Now playing:</b> [{title}]({link}) | `{type}` \n\n⏳ <b>Duration:</b> {duration}",
+                                 caption = f"▶️ <b>𝐓𝐬𝐠 𝐦𝐮𝐬𝐢𝐜 𝐧𝐨𝐰 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🥀❤️:</b> [{title}]({link}) | `{type}` \n\n⏳ <b>Duration:</b> {duration}",
                                  reply_markup = BUTTONS)
             return [title, link, type, duration, thumb]
     else:
@@ -216,7 +216,7 @@ async def yt_audio(link):
 async def cbcmds(_, query: CallbackQuery):
     await query.answer("Commands Menu")
     await query.edit_message_text(
-        f"""🗡️🇮🇳🗡️ 𝘏𝘦𝘭𝘭𝘰 » **𝘓𝘪𝘴𝘵 𝘖𝘧 𝘈𝘷𝘢𝘪𝘭𝘢𝘣𝘭𝘦 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴 🗡️🇮🇳🗡️**
+        f"""🗡️🇮🇳🗡️ 𝘏𝘦𝘭𝘭𝘰 » **𝘓𝘪𝘴𝘵 𝘖𝘧 𝘈𝘷𝘢𝘪𝘭𝘢𝘣𝘭𝘦 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴 𝘛𝘚𝘎 𝘔𝘜𝘚𝘐𝘊 𝘉𝘖𝘛 🗡️🇮🇳🗡️**
 » /play (Song Name/Link) - Play Music
 » /vplay (video name/link) - Play Video
 » /pause - Pause The Song
@@ -228,13 +228,13 @@ async def cbcmds(_, query: CallbackQuery):
 » /unmute - UnMute The Assistant On Voice Chat
 » /playlist - Show You The Playlist
 » /restart - Restart The Bot
-⚡ __𝘗𝘰𝘸𝘦𝘳𝘦𝘥 𝘉𝘺 𝘋𝘦𝘷𝘪𝘭 𝘏𝘢𝘤𝘬𝘦𝘳__""")
+⚡ __𝘗𝘰𝘸𝘦𝘳𝘦𝘥 𝘉𝘺 @itzamanrajput And @Friends_Chatting_Group3__""")
 
 
 @bot.on_message(filters.command("start") & filters.private)
 async def start_private(_, message):
     msg = START_TEXT.format(message.from_user.mention)
-    await message.reply_photo(photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg",
+    await message.reply_photo(photo="https://te.legra.ph/file/d8520698c1ef3b069976f.jpg",
                              caption = msg,
                              reply_markup = START_BUTTONS)
     
@@ -257,7 +257,7 @@ async def join_chat(c: Client, m: Message):
 @bot.on_message(filters.command("start") & filters.group)
 async def start_group(_, message):
     await message.reply_photo(photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg",
-                              caption = f"Hello 🦋 {message.from_user.mention} 🎧 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲𝐞𝐫 𝐈𝐬 𝐑𝐮𝐧𝐧𝐢𝐧𝐠.",
+                              caption = f"𝕙𝕖𝕝𝕝𝕠 🦋 {message.from_user.mention} 🎧 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲𝐞𝐫 𝐈𝐬 𝐑𝐮𝐧𝐧𝐢𝐧𝐠.",
                               reply_markup = BUTTONS)
 
 
@@ -271,7 +271,7 @@ async def video_play(_, message):
     except:
         return await message.reply_text(f"<b>Usage:</b> <code>/{state} [query]</code>")
     chat_id = message.chat.id
-    m = await message.reply_text("🔄 Processing...")
+    m = await message.reply_text("🔄 𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝒑𝒓𝒐𝒄𝒆𝒔𝒔𝒊𝒏𝒈...")
     if state == "play":
         damn = AudioPiped
         ded = yt_audio
@@ -294,7 +294,7 @@ async def video_play(_, message):
         thumb = results[0]["thumbnails"][0]
         duration = results[0]["duration"]
         yt = YouTube(link)
-        cap = f"▶️ <b>Now playing:</b> [{yt.title}]({link}) | `{doom}` \n\n⏳ <b>Duration:</b> {duration}"
+        cap = f"▶️ <b>𝑻𝒔𝒈 𝑴𝒖𝒔𝒊𝒄 𝑵𝒐𝒘 𝒑𝒍𝒂𝒚𝒊𝒏𝒈 🥀❤️:</b> [{yt.title}]({link}) | `{doom}` \n\n⏳ <b>Duration:</b> {duration}"
         try:
             ydl_opts = {"format": "bestvideo[height<=720]+bestaudio/best[height<=720]"}
             ydl = youtube_dl.YoutubeDL(ydl_opts)
@@ -312,7 +312,7 @@ async def video_play(_, message):
     try:
         if chat_id in QUEUE:
             position = add_to_queue(chat_id, yt.title, duration, link, playlink, doom, Q, thumb)
-            caps = f"#️⃣ [{yt.title}]({link}) <b>queued at position {position}</b> \n\n⏳ <b>Duration:</b> {duration}"
+            caps = f"#️⃣ [{yt.title}]({link}) <b>𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝒒𝒖𝒆𝒖𝒆𝒅 🥀 𝒂𝒕 𝒑𝒐𝒔𝒊𝒕𝒊𝒐𝒏❤️ {position}</b> \n\n⏳ <b>Duration:</b> {duration}"
             await message.reply_photo(thumb, caption=caps, reply_markup=BUTTONS)
             await m.delete()
         else:            
@@ -336,9 +336,9 @@ async def skip(_, message):
     if len(message.command) < 2:
         op = await skip_current_song(chat_id)
         if op == 0:
-            await message.reply_text("❗️Nothing in the queue to skip.")
+            await message.reply_text("❗️𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝒊𝒔 𝒏𝒐𝒕𝒉𝒊𝒏𝒈 𝒑𝒍𝒂𝒚𝒊𝒏𝒈☹️.")
         elif op == 1:
-            await message.reply_text("❗️Empty queue, stopped streaming.")
+            await message.reply_text("❗️𝑻𝒔𝒈 𝒏𝒖𝒔𝒊𝒄 𝑬𝒎𝒑𝒕𝒚 𝑸𝒖𝒆𝒖𝒆𝒅😬, 𝑺𝒕𝒐𝒑𝒑𝒆𝒅 𝑺𝒕𝒓𝒆𝒂𝒎𝒊𝒏𝒈☹️❤️.")
     else:
         skip = message.text.split(None, 1)[1]
         out = "🗑 <b>Removed the following song(s) from the queue:</b> \n"
@@ -366,11 +366,11 @@ async def playlist(_, message):
         if len(chat_queue) == 1:
             await message.delete()
             await message.reply_text(
-                f"▶️ <b>Now playing:</b> [{chat_queue[0][0]}]({chat_queue[0][2]}) | `{chat_queue[0][4]}`",
+                f"▶️ <b>𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝑵𝒐𝒘 𝒑𝒍𝒂𝒚𝒊𝒏𝒈🥀❤️:</b> [{chat_queue[0][0]}]({chat_queue[0][2]}) | `{chat_queue[0][4]}`",
                 disable_web_page_preview=True,
             )
         else:
-            out = f"<b>📃 Player queue:</b> \n\n▶️ <b>Now playing:</b> [{chat_queue[0][0]}]({chat_queue[0][2]}) | `{chat_queue[0][4]}` \n"
+            out = f"<b>📃 Player queue:</b> \n\n▶️ <b>𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝑵𝒐𝒘 𝒑𝒍𝒂𝒚𝒊𝒏𝒈🥀❤️:</b> [{chat_queue[0][0]}]({chat_queue[0][2]}) | `{chat_queue[0][4]}` \n"
             l = len(chat_queue)
             for x in range(1, l):
                 title = chat_queue[x][0]
@@ -390,9 +390,9 @@ async def end(_, message):
     if chat_id in QUEUE:
         await app.leave_group_call(chat_id)
         clear_queue(chat_id)
-        await message.reply_text("⏹ Stopped Playing.")
+        await message.reply_text("⏹ 𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝑺𝒕𝒐𝒑𝒑𝒆𝒅 𝒑𝒍𝒂𝒚𝒊𝒏𝒈 ❤️🥀.")
     else:
-        await message.reply_text("❗Nothing is playing.")
+        await message.reply_text("❗𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝒊𝒔 𝒏𝒐𝒕𝒉𝒊𝒏𝒈 𝒑𝒍𝒂𝒚𝒊𝒏𝒈 🥀❤️.")
         
 
 @bot.on_message(filters.command("pause") & filters.group)
@@ -403,9 +403,9 @@ async def pause(_, message):
     if chat_id in QUEUE:
         try:
             await app.pause_stream(chat_id)
-            await message.reply_text("⏸ Paused Playing.")
+            await message.reply_text("⏸ 𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝑷𝒂𝒖𝒔𝒆𝒅 𝑷𝒍𝒂𝒚𝒊𝒏𝒈🤗❤️.")
         except:
-            await message.reply_text("❗Nothing is playing.")
+            await message.reply_text("❗𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝒏𝒐𝒕𝒉𝒊𝒏𝒈 𝒊𝒔 𝒑𝒍𝒂𝒚𝒊𝒏𝒈🥀❤️.")
     else:
         await message.reply_text("❗Nothing is playing.")
         
@@ -418,11 +418,11 @@ async def resume(_, message):
     if chat_id in QUEUE:
         try:
             await app.resume_stream(chat_id)
-            await message.reply_text("⏸ Resumed streaming.")
+            await message.reply_text("⏸ 𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝒓𝒆𝒔𝒖𝒎𝒎𝒆𝒅 𝑺𝒕𝒓𝒆𝒂𝒎𝒊𝒏𝒈🎸.")
         except:
-            await message.reply_text("❗Nothing is playing.")
+            await message.reply_text("❗𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝒏𝒐𝒕𝒉𝒊𝒏𝒈 𝒊𝒔 𝒑𝒍𝒂𝒚𝒊𝒏𝒈.")
     else:
-        await message.reply_text("❗Nothing is playing.")
+        await message.reply_text("❗𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝒏𝒐𝒕𝒉𝒊𝒏𝒈 𝒊𝒔 𝒑𝒍𝒂𝒚𝒊𝒏𝒈❤️.")
         
         
 @bot.on_message(filters.command("mute") & filters.group)
@@ -433,11 +433,11 @@ async def mute(_, message):
     if chat_id in QUEUE:
         try:
             await app.mute_stream(chat_id)
-            await message.reply_text("🔇 Muted Playing.")
+            await message.reply_text("🔇 𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝑴𝒖𝒕𝒆𝒅 𝒑𝒍𝒂𝒚𝒊𝒏𝒈.")
         except:
-            await message.reply_text("❗Nothing is playing.")
+            await message.reply_text("❗𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝒏𝒐𝒕𝒉𝒊𝒏𝒈 𝒊𝒔 𝒑𝒍𝒂𝒚𝒊𝒏𝒈.")
     else:
-        await message.reply_text("❗Nothing is playing.")
+        await message.reply_text("❗𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝒏𝒐𝒕𝒉𝒊𝒏𝒈 𝒊𝒔 𝒑𝒍𝒂𝒚𝒊𝒏𝒈.")
         
         
 @bot.on_message(filters.command("unmute") & filters.group)
@@ -448,11 +448,11 @@ async def unmute(_, message):
     if chat_id in QUEUE:
         try:
             await app.unmute_stream(chat_id)
-            await message.reply_text("🔊 Unmuted streaming.")
+            await message.reply_text("🔊 𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝒖𝒏𝒎𝒖𝒕𝒆𝒅 𝒑𝒍𝒂𝒚𝒊𝒏𝒈.")
         except:
-            await message.reply_text("❗Nothing is playing.")
+            await message.reply_text("❗𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝒏𝒐𝒕𝒉𝒊𝒏𝒈 𝒊𝒔 𝒑𝒍𝒂𝒚𝒊𝒏𝒈.")
     else:
-        await message.reply_text("❗Nothing is playing.")
+        await message.reply_text("❗𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝒏𝒐𝒕𝒉𝒊𝒏𝒈 𝒊𝒔 𝒑𝒍𝒂𝒚𝒊𝒏𝒈.")
         
         
 @bot.on_message(filters.command("restart"))
@@ -460,7 +460,7 @@ async def restart(_, message):
     user_id = message.from_user.id
     if user_id != OWNER_ID:
         return
-    await message.reply_text("🛠 <i>Restarting Music Player...</i>")
+    await message.reply_text("🛠 <i>𝑻𝒔𝒈 𝒎𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝒊𝒔 𝒔𝒕𝒂𝒓𝒕𝒊𝒏𝒈.......</i>")
     os.system(f"kill -9 {os.getpid()} && python3 app.py")
             
 
